@@ -1,6 +1,7 @@
 # 06aa7e1e-ebc4-48c4-bff0-b794abdc7060
 https://sonarcloud.io/summary/overall?id=examly-test_06aa7e1e-ebc4-48c4-bff0-b794abdc7060
 
+## Heat Wave Model
 Steps to Run the model
 
 Best model --> Federated Conv1D Model 
@@ -17,3 +18,12 @@ Note--> Due to limited computation availabilty we were not able to run the Feder
 Also the other 3 reference model were too big to be uploaded on github so we have shared a model_links.txt file in the heatwave folder that contains all the refrence
 model we have build that includes  Fedearted Conv2D Model , Centralized Conv1D model, Centralized Conv2D model 
 Each model folder has been equipped with its runner and testing function with its output in the output folder
+
+
+## AQI Model
+
+Best model -> multi_multi_CNN ( Multi-headed Conv-1D model)
+
+In the model.ipynb file replace the path_csv with the any dataset and run the required cell to get the 2023 predicted AQI value.
+
+All the AQI models have provided in the 'AQI/models' folder.
